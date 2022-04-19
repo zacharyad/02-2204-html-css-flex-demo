@@ -3,9 +3,53 @@ html {
   scroll-behavior: smooth;
 }
 
+ul {
+  list-style-type: none;
+}
 
-@media only screen and (max-width: 600px) {
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+}
+
+li {
+  margin: 0 5px;
+}
+
+/* # = id */
+
+/* .pink {
+  background-color: pink;
+}
+
+.blue {
+  /* color: #23232350; */
+  /* color: rgba(255, 100, 255, ) */
+/* } */
+
+/* li {
+  background-color: green;
+} */
+
+@media only screen and (min-width: 600px) {
 /*  lets use some media queries to get familiar with responsive design */
-	
+	* {
+    background-color: pink;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
 }
 
